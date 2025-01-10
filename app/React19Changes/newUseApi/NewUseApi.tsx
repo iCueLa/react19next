@@ -31,7 +31,17 @@ function Comments({ commentsPromise }: Props) {
   return (
     <div>
       {comments.map((comment) => (
-        <div key={comment.id}>{comment.name}</div>
+        <div
+          key={comment.id}
+          style={{
+            border: "1px solid black",
+            padding: "1rem",
+            margin: "1rem",
+            borderRadius: "5px",
+          }}
+        >
+          {comment.name}
+        </div>
       ))}
     </div>
   );
