@@ -45,7 +45,6 @@ function ChangeName({
     null
   );
 
-  // ejemplos de usar optimist con useFormStatus
 
   return (
     <form

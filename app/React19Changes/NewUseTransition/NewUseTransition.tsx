@@ -30,8 +30,6 @@ const NewUseTransition = () => {
     });
   };
 
-  console.log(isPending);
-
   return (
     <div>
       <input

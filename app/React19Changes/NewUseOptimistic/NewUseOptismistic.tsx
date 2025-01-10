@@ -31,9 +31,6 @@ function ChangeName({
     onUpdateName(updatedName);
   };
 
-
-  // ejemplos de usar optimist con useFormStatus
-
   return (
     <form
       action={submitAction}

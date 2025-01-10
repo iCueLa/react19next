@@ -30,7 +30,7 @@ function ChangeName({
 }) {
   const [optimisticName, setOptimisticName] = useOptimistic(currentName);
 
-  const submitAction = async (formData: any) => {
+  const submitAction = async (formData) => {
     const newName = formData.get("name");
     setOptimisticName(newName);
     const updatedName = await updateName(newName);
@@ -38,7 +38,6 @@ function ChangeName({
   };
 
 
-  // ejemplos de usar optimist con useFormStatus
 
   return (
     <form

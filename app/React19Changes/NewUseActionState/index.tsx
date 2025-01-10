@@ -23,9 +23,11 @@ const updateName = async (name: string): Promise<string | null> => {
 
 function NewUseActionState() {
   const [error, submitAction, isPending] = useActionState(
-    async (previousState: any, formData: any) => {
+    async (previousState, formData) => {
       const error = await updateName(formData.get("name"));
       if (error) {
+        // En este condicional podemos aplicar cualquier accion en el caso de que haya un error,
+        // ademas podemos retornar el error en el caso de que lo haya
         return error;
       }
       return null;

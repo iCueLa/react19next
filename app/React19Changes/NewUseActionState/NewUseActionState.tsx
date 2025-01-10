@@ -21,6 +21,8 @@ function NewUseActionState() {
       console.log(previousState, formData.get("name"));
       const error = await updateName(formData.get("name"));
       if (error) {
+        // En este condicional podemos aplicar cualquier accion en el caso de que haya un error,
+        // ademas podemos retornar el error en el caso de que lo haya
         return error;
       }
       return null;
