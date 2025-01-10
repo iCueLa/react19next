@@ -40,3 +40,57 @@ a {
     color-scheme: dark;
   }
 }
+
+button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+button:disabled {
+  background-color: lightgrey;
+  cursor: not-allowed;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid blue;
+}
+input:focus {
+  outline: none;
+}
+
+section {
+  margin: 1rem;
+  width: 800px;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: grey;
+}
+
+img {
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
