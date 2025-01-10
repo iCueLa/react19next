@@ -71,6 +71,9 @@ const index = () => {
           manera más sencilla. Al utilizar <code>use</code> en una promesa, se
           maneja el estado de la misma y se actualiza el componente cuando la
           promesa se resuelve.
+          <br />
+          Esto es útil para manejar la carga de datos de manera más sencilla.
+          Ademas interactua con <code>Suspense</code> para mostrar un fallback
         </h3>
       </div>
       <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>

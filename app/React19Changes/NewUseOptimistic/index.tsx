@@ -86,6 +86,9 @@ const index = () => {
           Este hook nos permite manejar estados optimistas de manera sencilla.
           Eso significa que podemos actualizar el estado de un componente antes
           de que la operación asincrónica haya terminado.
+          <br />
+          Esto tambien ayudara a mejorar la experiencia de usuario, ya que
+          parecera que la aplicacion es mas rapida y tiene menos latencia.
         </h3>
       </div>
       <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>

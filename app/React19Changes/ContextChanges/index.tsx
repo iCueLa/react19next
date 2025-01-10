@@ -35,6 +35,8 @@ const index = () => {
         <h3>
           En React 19 ya no se usa el método <b>Provider</b> para pasar el valor
           del contexto, ahora se usa el método value directamente en el
+          contexto. Asi que si tenemos varios providers en nuestra aplicación,
+          ahora tendremos que migrarlos a la nueva forma de pasar el valor del
           contexto.
         </h3>
       </div>

@@ -79,7 +79,8 @@ const index = () => {
           Este hook es similar a <code>useTransition</code> pero en lugar de
           maneja la transición de un componente, maneja el estado de carga de un
           formulario. Esto es útil para deshabilitar un botón de envío mientras
-          se envía un formulario y mostrar un mensaje de carga.
+          se envía un formulario y mostrar un mensaje de carga. Esto nos va a
+          ayudar disminuir el prop drilling y tener un código más limpio.
         </h3>
       </div>
       <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>

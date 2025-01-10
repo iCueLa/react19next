@@ -11,6 +11,7 @@ import NewUseOptimistic from "./React19Changes/NewUseOptimistic";
 import NewUseApi from "./React19Changes/newUseApi";
 import OptimisticWithFormAction from "./React19Changes/OptimistickWhitFromAction";
 import ContextChange from "./React19Changes/ContextChanges";
+import FinishNotes from "./React19Changes/FinishNotes";
 
 export default function Home() {
   return (
@@ -87,6 +88,9 @@ export default function Home() {
         </section>
         <section>
           <ContextChange />
+        </section>
+        <section>
+          <FinishNotes />
         </section>
       </main>
     </div>

@@ -50,9 +50,6 @@ const NewUseTransition = () => {
       <button
         onClick={handleSubmit}
         disabled={isPending}
-        style={{
-          backgroundColor: (isPending && "grey") || "blue",
-        }}
       >
         Update
       </button>
